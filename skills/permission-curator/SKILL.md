@@ -570,24 +570,35 @@ The objective is the **highest-value prompt set**.
 
 ## Modification procedure
 
-When asked to modify the active policy:
+When asked to modify the active policy or install/update a Skill:
 
-1. Read the active config.
-2. Make the smallest coherent change.
+1. Read the active config and the relevant existing Skill, if any.
+2. Make the smallest coherent proposed change in a working copy or patch; do not modify the
+   active config or install/update the Skill yet.
 3. Preserve formatting/comments where practical.
 4. Keep the default fallback explicit.
 5. Keep consequential boundaries explicit even if they already fall through to default `ask`;
    these comments/rules document design intent.
-6. Validate JSON/JSONC syntax where possible.
-7. Re-read the final permission block for shadowing.
-8. Do not modify unrelated settings.
-9. Present a concise summary:
-   - what was added/changed;
-   - what now runs without approval;
-   - what still requires approval;
+6. Validate JSON/JSONC syntax and Skill structure where possible.
+7. Re-read the proposed permission block for shadowing.
+8. Do not include unrelated settings or Skill changes.
+9. Show the user the exact diff and a concise summary:
+   - what would be added/changed;
+   - what would run without approval;
+   - what would still require approval;
    - any notable residual risk or trust assumption.
+10. Obtain explicit user approval after showing the diff.
+11. Only after approval, install the new Skill or apply the policy/Skill update.
+12. Re-read the installed/updated result and report what changed.
 
-If the user asked only for analysis/recommendations, do not edit the config until they request the change.
+Review is mandatory before modifying an existing Skill. Apply the same review gate to a newly
+created Skill that will be globally discoverable: propose it, show its complete diff, obtain
+explicit approval, then install it. Do not treat local creation or a successful validation as
+approval.
+
+If the user asked only for analysis/recommendations, do not edit the config or install/update a
+Skill until they request the change. A request to make the change is not approval of an unseen
+diff; show the diff first.
 
 ## Suggested review cadence
 
