@@ -6,6 +6,8 @@ This repository is a practical companion for experimenting with that model. It c
 
 It accompanies a 44CON talk on supervising agentic cybersecurity work.
 
+**[Read the research references](REFERENCES.md)**
+
 ## License
 
 Unless otherwise stated, the original material in this repository is licensed under [CC BY 4.0](LICENSE.md). See the license file for attribution requirements and exclusions for third-party material.
@@ -159,5 +161,6 @@ A Skill does not grant authority. Review durable Skill changes. A strong prompt 
 - [`skills/`](skills/) contains reusable Skills.
 - [`prompts/`](prompts/) contains a cybersecurity system prompt.
 - [`config/`](config/) contains the full example OpenCode permissions block.
+- [`REFERENCES.md`](REFERENCES.md) contains research references supporting the repository's guidance.
 
 These examples were derived from practical experiments with local coding/agent harnesses and then sanitized for public reuse.
