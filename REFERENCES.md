@@ -8,7 +8,8 @@
 - Google DeepMind, [Introducing Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/).
 - Dell'Acqua et al., [The Cybernetic Teammate](https://www.nber.org/papers/w33641).
 - Dell'Acqua et al., [Navigating the Jagged Technological Frontier](https://www.hbs.edu/faculty/Pages/item.aspx?num=64700).
-- ISC2, [Cybersecurity research and workforce studies](https://www.isc2.org/research).
+- ISC2, [Cybersecurity Teams Cautious on AI Adoption](https://www.isc2.org/Insights/2025/07/ISC2-Research-Cybersecurity-Teams-Cautious-on-AI-Adoption).
+- ISC2, [2025 ISC2 Cybersecurity Workforce Study](https://www.isc2.org/Insights/2025/12/2025-ISC2-Cybersecurity-Workforce-Study).
 - ISC2, [Rethinking AI's Impact on Cybersecurity Roles](https://www.isc2.org/insights/2026/07/rethinking-ai-impact-on-cybersecurity-roles).
 
 ## Oversight and reliance
@@ -21,7 +22,7 @@
 - Fok & Weld, [In Search of Verifiability](https://onlinelibrary.wiley.com/doi/10.1002/aaai.12182).
 - Buçinca, Malaya & Gajos, [To Trust or to Think](https://www.eecs.harvard.edu/~kgajos/papers/2021/bucinca2021trust.shtml).
 - Addy Osmani, [Own the Outer Loop](https://addyosmani.com/blog/own-the-outer-loop/).
-- Advait Sarkar, [Artificial Intelligence as a Tool for Thought](https://www.microsoft.com/en-us/research/search/?q=Artificial%20Intelligence%20as%20a%20Tool%20for%20Thought), and [How to Stop AI from Killing Your Critical Thinking](https://www.ted.com/talks/advait_sarkar_how_to_stop_ai_from_killing_your_critical_thinking).
+- Advait Sarkar, Sean Rintel & Richard Banks, [Artificial Intelligence as a Tool for Thought](https://www.microsoft.com/en-us/research/publication/tedai-2025-artificial-intelligence-as-a-tool-for-thought/), and [How to Stop AI from Killing Your Critical Thinking](https://www.ted.com/talks/advait_sarkar_how_to_stop_ai_from_killing_your_critical_thinking).
 - Kestin et al., [AI tutoring and active learning research](https://www.nature.com/articles/s41598-025-97652-6).
 - Wyndo, [I Built a Socratic AI That Questions Every Decision I Make](https://aimaker.substack.com/p/i-built-socratic-ai-that-questions-every-decision-i-make-here-what-i-learned).
 - Lee et al., [The Impact of Generative AI on Critical Thinking](https://doi.org/10.1145/3706598.3713778).
